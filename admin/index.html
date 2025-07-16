@@ -5,8 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Painel de Conteúdo - NextStream</title>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    body { font-family: sans-serif; background-color: #f4f4f4; }
+    .tutorial-link {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: #db2a32;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      z-index: 1001;
+      transition: background-color 0.3s;
+    }
+    .tutorial-link:hover {
+      background-color: #b82128;
+    }
+  </style>
 </head>
 <body>
+  <a href="/tutorial.html" target="_blank" class="tutorial-link">
+    ? Abrir Guia de Uso
+  </a>
+
   <script defer src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </body>
 </html>
