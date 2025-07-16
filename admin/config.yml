@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-site_url: https://nextstream.shop
+site_url: https://nextstream.site
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
